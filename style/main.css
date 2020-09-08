@@ -1,0 +1,245 @@
+/* Fonts*/
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+/* Font-color */
+.highlight {
+    color: #ed9726;
+}
+.red {
+    color: red;
+}
+/* Anchor Tag ` */
+* a, a:hover ,a:active, a:focus {
+    text-decoration: none;
+    outline: 0;
+}
+
+.highlight {
+    color: #ff5733;
+}
+
+body {
+    background-color: rgb(255, 255, 255, 0.1);
+}
+/* consultation-section */
+.consultation {
+    background-color: rgb(202, 222, 250, 0.8);
+
+}
+.consultation-form {
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 4px 4px 8px;
+}
+@media (max-width:768px) {
+    .consultation-form {
+        width: 95%;
+    }
+    .free-consultation button {
+        font-size: 18px;
+    }
+
+}
+.free-consultation button {
+    background-color: red;
+    color: #fff;
+    font-weight: 800;
+}
+.tittle {
+    color: #ed9726;
+}
+
+/* About Us */
+.aboutus-section {
+    background-color: rgb(202, 222, 250, 0.2);
+}
+
+/* Buttons */
+.cta-btn {
+    position: fixed;
+    text-align: center;
+    background-color: red;
+    top: 15%;
+    left: -50px;
+    z-index: 10;
+    transform: rotate(90deg);
+    border-radius: 7px;
+}
+.cta-btn a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 18px;
+    padding: 30px 15px;
+    font-weight: 900;
+}
+.book-apt-btn {
+    position: fixed;
+    text-align: center;
+    background-color: #ed9726 ;
+    bottom: 40%;
+    right: -75px;
+    transform: rotate(90deg);
+    z-index: 110 ;
+    border-radius: 7px;
+}
+.book-apt-btn a {
+    text-decoration: none;
+    font-size: 18px;
+    color: #fff;
+    padding: 30px 15px;
+    font-weight: 900;
+}
+
+/* AboutUs Section */
+.name h2 {
+    color: #ed9726;
+}
+
+/* Fearures Section */
+.features-section {
+    background-color: rgb(245, 239, 202, 0.1);
+}
+.features p {
+    font-size: 18px;
+}
+
+/* Book Appointment -Section  */
+.book-apt-section {
+    background-color: rgb(255, 87, 51, 0.5) ;
+}
+.cta a {
+    background-color: rgb(23, 32, 42) ;
+    padding: 12px;
+    border-radius: 30px;
+    border: 0;
+    color:  #f8f9f9 ;
+    box-shadow: 2px 2px 2px rgb(0, 0, 0 ,0.4);
+    font-weight: 800;
+}
+/* Testimonial Section */
+.testimonial-section {
+    background-color: rgb(222, 249, 240);
+}
+.stars-box {
+    color: #ed9726;
+}
+.testimonial-img {
+    box-shadow: 4px 2px 5px 4px rgba(0, 0, 0, 0.3);
+}
+.pre-btn {
+
+}
+
+/* Send Message Section */
+
+.modal-content {
+    background-color: rgb(0, 0, 0, 0.2);
+}
+.form-control {
+    border-radius: 0;
+    border: 0;
+}
+.form-control:active, .form-control:focus {
+    outline: 0 !important;
+}
+.msg-btn {
+    position: absolute;
+    right: 50px;
+    z-index: 12;
+}
+.cta-btn2 {
+    font-weight: bold;
+    background-color: #ed9726 !important;
+}
+.modal-header {
+    color: #fff;
+    background-color: #ed9726;
+}
+.submit-btn {
+    background-color: #ed9726;
+    color: #fff;
+}
+
+/* Appointment-form */
+.appointment-section {
+    background-color: rgb(0, 0, 0, 0.8);
+}
+.appointment-form input {
+    border: 0;
+    border-bottom: 2px solid #ed9726;
+    padding: 5px 5px;
+    font-weight: 700;
+}
+.appointment-form input:active ,.appointment-form input:focus {
+    outline: 0;
+}
+.backdrop-apt-section {
+    display: none;
+    position: absolute;
+    z-index: 50;
+    top: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgb(0 ,0 ,0 , 0.1 );
+}
+.close-btn {
+    cursor: pointer;
+}
+/* Ebook-Section */
+.ebook-section {
+    background-color: rgb(198, 124, 49, 0.4);
+}
+.ebook-download-btn input {
+    border: 0 ;
+    padding: 10px;
+    background: rgb(198, 124, 49, 0.5) ;
+    box-shadow: 2px 2px 2px rgb(0, 0, 0, 0.1);
+}
+.ebook-download-btn a {
+    color: #fff;
+}
+/* News And Event Section */
+.news-section {
+    background-color: rgb(23, 162, 184);
+}
+
+/* FAQ-Section */
+.faq-section {
+    background-color: #f9e3de ;
+    margin: 0 0 10px 0;
+}
+.faq-btn p {
+    font-weight: 500;
+
+}
+.faq-text  {
+    font-weight: 100;
+}
+/* Footer-section */
+.footer-area {
+    background-color: #85929f;
+}
+section{
+    padding: 80px 0;;
+}
+/* Send Message-Button */
+@media (min-width:350px) and (max-width:768px) {
+    .msg-btn {
+        display: none;
+    }
+}
+
+/* Scroll-Button */
+.scroll-btn-box {
+    background-color: rgb(0 ,0 ,0 , 0.2);
+    width: 50px;
+    height: 50px;
+    padding: 5px;
+    position: fixed;
+    bottom: 30px;
+    right: 10px;
+    z-index: 1000;
+}
